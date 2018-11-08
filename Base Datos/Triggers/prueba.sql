@@ -1,3 +1,4 @@
+use Inventario;
 SET FOREIGN_KEY_CHECKS = 0; 
 TRUNCATE table Empresa;
 TRUNCATE table Empleado;
@@ -43,7 +44,7 @@ update Asig_PK set valor =0 where n_tab like 'Empleado';
 update Asig_PK set valor =0 where n_tab like 'Producto';
 delete from Empresa where id_empresa=2;
 delete from Empleado where id_empleado=0;
-delete from Producto where id_producto=1;
+delete from Producto where id_producto=0;
 
 UPDATE Inventario.Asig_PK SET valor = 1 WHERE upper(n_tab) like upper('Empresa');
 UPDATE Inventario.Asig_PK SET valor = 0 WHERE n_tab like 'Producto';

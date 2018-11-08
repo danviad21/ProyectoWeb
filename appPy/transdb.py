@@ -1,18 +1,35 @@
 from cdb import cnxdb
 
-class crud(object):
+class ServiciosDisp():
 
 	def __init__(self):
-		self.__CONEXION = cnxdb()
-		self.__CURSOR = None
+		self.__conexion = cnxdb()
 
-	def _insertar_producto(self):
-		script = """INSERT INTO Empresa VALUES(%s,%s)""";
-		values = (1,'Empresa 1')
-		self.__CONEXION._conectar()
-		self.__CONEXION._insertar(script,values)
+	def consProdPorId(self,parametro):
+		resultado=[]
+	
+		query = """SELECT descripcion_prod,stock,precio_stock FROM Producto WHERE id_producto = %s"""
+		self.__conexion._conectar()
+		cursor = self.__conexion._consulta1(query,int(parametro))
+	
+		for row in cursor:
+			tupla = row[0],row[1],row[2]
+			resultado.append(tupla)
+		cursor.close();
+		self.__conexion._desconectar()
+		return resultado
 
 
-primer = crud()
-primer._insertar_producto()
-
+	def consProdPorNombre(self,parametro):
+		resultado=[]
+		query = """SELECT descripcion_prod,stock,precio_stock FROM Producto WHERE UPPER(descripcion_prod) LIKE UPPER(%s)"""
+		self.__conexion._conectar()
+		cursor = self.__conexion._abrirCursor()
+		cursor.execute(query, ('%'+parametro+'%',))		
+		for row in cursor:
+			tupla = row[0],row[1],row[2]
+			resultado.append(tupla)
+			print resultado
+		cursor.close()
+		self.__conexion._desconectar()
+		return resultadoe

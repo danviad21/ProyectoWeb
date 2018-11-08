@@ -1,0 +1,147 @@
+[Wed Nov 07 22:33:58.530438 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566] mod_wsgi (pid=15821): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:33:58.549730 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566] mod_wsgi (pid=15821): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:33:58.549925 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566] Traceback (most recent call last):
+[Wed Nov 07 22:33:58.550040 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:33:58.550360 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566]     from appPy import app as application
+[Wed Nov 07 22:33:58.551202 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566]   File "/home/oem/Documentos/ProyectoWeb/appPy/__init__.py", line 17
+[Wed Nov 07 22:33:58.551271 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566]     class Service implements transdb(enterprise.SOAPService):
+[Wed Nov 07 22:33:58.551309 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566]                            ^
+[Wed Nov 07 22:33:58.551343 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49566] SyntaxError: invalid syntax
+[Wed Nov 07 22:33:58.675434 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570] mod_wsgi (pid=15819): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:33:58.675533 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570] mod_wsgi (pid=15819): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:33:58.675581 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570] Traceback (most recent call last):
+[Wed Nov 07 22:33:58.675633 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:33:58.675755 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570]     from appPy import app as application
+[Wed Nov 07 22:33:58.676180 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570]   File "/home/oem/Documentos/ProyectoWeb/appPy/__init__.py", line 17
+[Wed Nov 07 22:33:58.676209 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570]     class Service implements transdb(enterprise.SOAPService):
+[Wed Nov 07 22:33:58.676226 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570]                            ^
+[Wed Nov 07 22:33:58.676242 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49570] SyntaxError: invalid syntax
+[Wed Nov 07 22:34:02.341619 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572] mod_wsgi (pid=15822): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:34:02.341705 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572] mod_wsgi (pid=15822): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:34:02.341743 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572] Traceback (most recent call last):
+[Wed Nov 07 22:34:02.341785 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:34:02.341885 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572]     from appPy import app as application
+[Wed Nov 07 22:34:02.342189 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572]   File "/home/oem/Documentos/ProyectoWeb/appPy/__init__.py", line 17
+[Wed Nov 07 22:34:02.342232 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572]     class Service implements transdb(enterprise.SOAPService):
+[Wed Nov 07 22:34:02.342247 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572]                            ^
+[Wed Nov 07 22:34:02.342261 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49572] SyntaxError: invalid syntax
+[Wed Nov 07 22:34:02.504322 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574] mod_wsgi (pid=15818): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:34:02.504406 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574] mod_wsgi (pid=15818): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:34:02.504445 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574] Traceback (most recent call last):
+[Wed Nov 07 22:34:02.504488 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:34:02.504617 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574]     from appPy import app as application
+[Wed Nov 07 22:34:02.504958 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574]   File "/home/oem/Documentos/ProyectoWeb/appPy/__init__.py", line 17
+[Wed Nov 07 22:34:02.504981 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574]     class Service implements transdb(enterprise.SOAPService):
+[Wed Nov 07 22:34:02.504996 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574]                            ^
+[Wed Nov 07 22:34:02.505010 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49574] SyntaxError: invalid syntax
+[Wed Nov 07 22:34:05.556417 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578] mod_wsgi (pid=15820): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:34:05.556503 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578] mod_wsgi (pid=15820): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:34:05.556541 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578] Traceback (most recent call last):
+[Wed Nov 07 22:34:05.556674 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:34:05.556779 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578]     from appPy import app as application
+[Wed Nov 07 22:34:05.557082 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578]   File "/home/oem/Documentos/ProyectoWeb/appPy/__init__.py", line 17
+[Wed Nov 07 22:34:05.557099 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578]     class Service implements transdb(enterprise.SOAPService):
+[Wed Nov 07 22:34:05.557114 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578]                            ^
+[Wed Nov 07 22:34:05.557128 2018] [wsgi:error] [pid 15820:tid 140614638946048] [remote 127.0.0.1:49578] SyntaxError: invalid syntax
+[Wed Nov 07 22:34:05.667637 2018] [wsgi:error] [pid 15820:tid 140614630545152] [remote 127.0.0.1:49580] mod_wsgi (pid=15820): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:34:05.667740 2018] [wsgi:error] [pid 15820:tid 140614630545152] [remote 127.0.0.1:49580] mod_wsgi (pid=15820): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:34:05.667837 2018] [wsgi:error] [pid 15820:tid 140614630545152] [remote 127.0.0.1:49580] Traceback (most recent call last):
+[Wed Nov 07 22:34:05.667986 2018] [wsgi:error] [pid 15820:tid 140614630545152] [remote 127.0.0.1:49580]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:34:05.668121 2018] [wsgi:error] [pid 15820:tid 140614630545152] [remote 127.0.0.1:49580]     from appPy import app as application
+[Wed Nov 07 22:34:05.668218 2018] [wsgi:error] [pid 15820:tid 140614630545152] [remote 127.0.0.1:49580] ImportError: cannot import name app
+[Wed Nov 07 22:35:01.398012 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49582] mod_wsgi (pid=15821): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:01.398105 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49582] mod_wsgi (pid=15821): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:01.398159 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49582] Traceback (most recent call last):
+[Wed Nov 07 22:35:01.398214 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49582]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:01.398286 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49582]     from appPy import app as application
+[Wed Nov 07 22:35:01.398338 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49582] ImportError: cannot import name app
+[Wed Nov 07 22:35:01.513192 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49584] mod_wsgi (pid=15819): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:01.513310 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49584] mod_wsgi (pid=15819): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:01.513382 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49584] Traceback (most recent call last):
+[Wed Nov 07 22:35:01.513458 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49584]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:01.513552 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49584]     from appPy import app as application
+[Wed Nov 07 22:35:01.513620 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49584] ImportError: cannot import name app
+[Wed Nov 07 22:35:02.797798 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49586] mod_wsgi (pid=15821): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:02.797913 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49586] mod_wsgi (pid=15821): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:02.798007 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49586] Traceback (most recent call last):
+[Wed Nov 07 22:35:02.798108 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49586]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:02.798242 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49586]     from appPy import app as application
+[Wed Nov 07 22:35:02.798338 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49586] ImportError: cannot import name app
+[Wed Nov 07 22:35:02.922316 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49588] mod_wsgi (pid=15819): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:02.922395 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49588] mod_wsgi (pid=15819): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:02.922475 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49588] Traceback (most recent call last):
+[Wed Nov 07 22:35:02.922527 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49588]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:02.922600 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49588]     from appPy import app as application
+[Wed Nov 07 22:35:02.922646 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49588] ImportError: cannot import name app
+[Wed Nov 07 22:35:04.659093 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49590] mod_wsgi (pid=15822): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:04.659223 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49590] mod_wsgi (pid=15822): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:04.659317 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49590] Traceback (most recent call last):
+[Wed Nov 07 22:35:04.659411 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49590]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:04.659535 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49590]     from appPy import app as application
+[Wed Nov 07 22:35:04.659626 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49590] ImportError: cannot import name app
+[Wed Nov 07 22:35:04.731132 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49592] mod_wsgi (pid=15818): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:04.731219 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49592] mod_wsgi (pid=15818): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:04.731274 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49592] Traceback (most recent call last):
+[Wed Nov 07 22:35:04.731333 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49592]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:04.731407 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49592]     from appPy import app as application
+[Wed Nov 07 22:35:04.731459 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49592] ImportError: cannot import name app
+[Wed Nov 07 22:35:18.529949 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49596] mod_wsgi (pid=15821): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:18.530077 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49596] mod_wsgi (pid=15821): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:18.530166 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49596] Traceback (most recent call last):
+[Wed Nov 07 22:35:18.530260 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49596]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:18.530384 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49596]     from appPy import app as application
+[Wed Nov 07 22:35:18.530475 2018] [wsgi:error] [pid 15821:tid 140614605334272] [remote 127.0.0.1:49596] ImportError: cannot import name app
+[Wed Nov 07 22:35:18.616190 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49598] mod_wsgi (pid=15819): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:18.616364 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49598] mod_wsgi (pid=15819): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:18.616439 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49598] Traceback (most recent call last):
+[Wed Nov 07 22:35:18.616520 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49598]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:18.616732 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49598]     from appPy import app as application
+[Wed Nov 07 22:35:18.616851 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49598] ImportError: cannot import name app
+[Wed Nov 07 22:35:33.800126 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49600] mod_wsgi (pid=15821): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:33.800201 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49600] mod_wsgi (pid=15821): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:33.800248 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49600] Traceback (most recent call last):
+[Wed Nov 07 22:35:33.800301 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49600]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:33.800373 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49600]     from appPy import app as application
+[Wed Nov 07 22:35:33.800422 2018] [wsgi:error] [pid 15821:tid 140614630545152] [remote 127.0.0.1:49600] ImportError: cannot import name app
+[Wed Nov 07 22:35:33.923610 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49602] mod_wsgi (pid=15819): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:33.923683 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49602] mod_wsgi (pid=15819): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:33.923730 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49602] Traceback (most recent call last):
+[Wed Nov 07 22:35:33.923777 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49602]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:33.923840 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49602]     from appPy import app as application
+[Wed Nov 07 22:35:33.923883 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49602] ImportError: cannot import name app
+[Wed Nov 07 22:35:35.534125 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49604] mod_wsgi (pid=15818): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:35.534234 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49604] mod_wsgi (pid=15818): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:35.534320 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49604] Traceback (most recent call last):
+[Wed Nov 07 22:35:35.534413 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49604]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:35.534534 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49604]     from appPy import app as application
+[Wed Nov 07 22:35:35.534623 2018] [wsgi:error] [pid 15818:tid 140614630545152] [remote 127.0.0.1:49604] ImportError: cannot import name app
+[Wed Nov 07 22:35:35.632518 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49606] mod_wsgi (pid=15822): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:35:35.632640 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49606] mod_wsgi (pid=15822): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:35:35.632697 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49606] Traceback (most recent call last):
+[Wed Nov 07 22:35:35.632746 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49606]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:35:35.632810 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49606]     from appPy import app as application
+[Wed Nov 07 22:35:35.632852 2018] [wsgi:error] [pid 15822:tid 140614638946048] [remote 127.0.0.1:49606] ImportError: cannot import name app
+[Wed Nov 07 22:37:25.483981 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49620] mod_wsgi (pid=15819): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:37:25.484107 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49620] mod_wsgi (pid=15819): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:37:25.484195 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49620] Traceback (most recent call last):
+[Wed Nov 07 22:37:25.484284 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49620]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:37:25.484625 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49620]     from appPy import app as application
+[Wed Nov 07 22:37:25.484721 2018] [wsgi:error] [pid 15819:tid 140614605342464] [remote 127.0.0.1:49620] ImportError: cannot import name app
+[Wed Nov 07 22:37:25.581948 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49622] mod_wsgi (pid=15818): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:37:25.582035 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49622] mod_wsgi (pid=15818): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:37:25.582084 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49622] Traceback (most recent call last):
+[Wed Nov 07 22:37:25.582137 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49622]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:37:25.582291 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49622]     from appPy import app as application
+[Wed Nov 07 22:37:25.582335 2018] [wsgi:error] [pid 15818:tid 140614613743360] [remote 127.0.0.1:49622] ImportError: cannot import name app
+[Wed Nov 07 22:37:56.568165 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49632] mod_wsgi (pid=15819): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:37:56.568261 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49632] mod_wsgi (pid=15819): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:37:56.568328 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49632] Traceback (most recent call last):
+[Wed Nov 07 22:37:56.568396 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49632]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:37:56.568486 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49632]     from appPy import app as application
+[Wed Nov 07 22:37:56.568619 2018] [wsgi:error] [pid 15819:tid 140614613743360] [remote 127.0.0.1:49632] ImportError: cannot import name app
+[Wed Nov 07 22:37:56.641013 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49634] mod_wsgi (pid=15822): Target WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py' cannot be loaded as Python module.
+[Wed Nov 07 22:37:56.641127 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49634] mod_wsgi (pid=15822): Exception occurred processing WSGI script '/home/oem/Documentos/ProyectoWeb/appPy/controller.py'.
+[Wed Nov 07 22:37:56.641219 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49634] Traceback (most recent call last):
+[Wed Nov 07 22:37:56.641315 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49634]   File "/home/oem/Documentos/ProyectoWeb/appPy/controller.py", line 7, in <module>
+[Wed Nov 07 22:37:56.641621 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49634]     from appPy import app as application
+[Wed Nov 07 22:37:56.641717 2018] [wsgi:error] [pid 15822:tid 140614605334272] [remote 127.0.0.1:49634] ImportError: cannot import name app

@@ -9,6 +9,7 @@ class cnxdb(object):
 		self.__PASS="odavid"
 		self.__DB="Inventario"
 		self.__cnx=None
+		self.__cursor=None;
 	
 	def __conexion(self):
 		try:
@@ -21,6 +22,15 @@ class cnxdb(object):
 		self.__conexion()
 		return self.__cnx
 
+
+	def _abrirCursor(self):
+		if self.__cnx:
+			return self.__cnx.cursor()
+
+	def _cerraCursor(self):
+		if (self.__cnx.is_connected()):
+			return self.__cnx.cursor(prepared=True) 
+
 	def _desconectar(self):
 		if self.__cnx!= None:
 			print "desconectado"
@@ -28,10 +38,24 @@ class cnxdb(object):
 		else:
 			print "no estaba conectado"
 
-	def _insertar(self,script,tupla):
+	"""def _insertar(self,script,tupla):
 		if self.__cnx != None:
 			cursor = self.__cnx.cursor(prepared=True)
 			cursor.execute(script,tupla)
 			self.__cnx.commit()
 			cursor.close()
 			self._desconectar()
+"""
+	def _consulta(self,query,parametro):
+		if self.__cnx !=None:
+			self.__cursor = self.__cnx.cursor(prepared=True)
+			self.__cursor.execute(query, ('%'+parametro+'%',))
+			return self.__cursor
+
+	def _consulta1(self,query,parametro):
+		if self.__cnx !=None:
+			self.__cursor = self.__cnx.cursor(prepared=False)
+			self.__cursor.execute(query,(parametro,))
+			return self.__cursor
+
+			
